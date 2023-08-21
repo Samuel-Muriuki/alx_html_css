@@ -71,6 +71,7 @@ h2 {
   justify-content: center;
   width: 50%;
   border: 5px solid green;
+  border-radius: 15px;
 }
 
 .wrapper {
@@ -93,4 +94,14 @@ h3 {
 
 .wrapper p {
   border: 5px solid blueviolet;
+}
+
+.sec-section {
+  display: flex;
+  padding: 20px;
+}
+
+.img-block img {
+  width: 50%;
+  border-radius: 15px;
 }
