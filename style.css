@@ -17,11 +17,8 @@ li img {
 }
 
 li a {
-  float: right;
-}
-
-li a {
   display: block;
+  float: right;
   height: 2.25em;
   line-height: 2.25em;
   border: 0;
@@ -40,4 +37,60 @@ ul li {
   margin: 0 0.35em;
   padding: 0;
   vertical-align: middle;
+}
+
+section {
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+
+.first-block {
+  /* width: 10%; */
+  text-align: center;
+  border: 5px solid rgb(255, 0, 234);
+}
+
+.first-block p {
+  border: 5px solid blue;
+}
+
+.second-block {
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgb(255, 72, 0);
+}
+
+h2 {
+  border: 5px solid rgb(0, 102, 255);
+  text-align: center;
+  /* width: 10%; */
+}
+
+.wrapper img {
+  justify-content: center;
+  width: 50%;
+  border: 5px solid green;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  border: 5px solid blue;
+}
+
+.wrapper > div {
+  text-align: center;
+  padding: 20px 0;
+  border: 5px solid rgb(115, 255, 0);
+}
+
+h3 {
+  border: 5px solid rgb(71, 69, 69);
+}
+
+.wrapper p {
+  border: 5px solid blueviolet;
 }
